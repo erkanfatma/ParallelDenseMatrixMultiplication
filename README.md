@@ -5,7 +5,7 @@ Multithreaded parallel application that performs dense matrix multiplication in 
 run: 
  
 1. gcc -o serial_multiplication.exe serial_multiplication.c
-    ./serial_multiplication.exe
+2. ./serial_multiplication.exe
     
-2. gcc -o parallel_multiplication.exe parallel_multiplication.c -pthread
-    ./parallel_multiplication.exe
+3. gcc -o parallel_multiplication.exe parallel_multiplication.c -pthread
+4.   ./parallel_multiplication.exe
